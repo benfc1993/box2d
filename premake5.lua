@@ -20,6 +20,11 @@ project "Box2D"
 		"src"
 	}
 
+	filter "system:linux"
+		pic "On"
+		systemversion "latest"
+		cppdialect "C++17"
+
 	filter "system:windows"
 		systemversion "latest"
 
